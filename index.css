@@ -16,7 +16,6 @@ header {
     padding-left: 5%;
     padding-right: 2%;
     justify-content: space-between;
-    flex-wrap: wrap;
     border-bottom: 3px solid #f5f5f6;
     
 }
@@ -26,6 +25,7 @@ header {
     width: 5%;
     display: flex;
     align-items: center;
+    flex-shrink: 4;
 }
 
 .logo {
@@ -36,6 +36,7 @@ header {
     width: 45%;
     padding-right: 5%;
     height: 100%;
+    flex-shrink: 1;
 }
 .nav-container nav {
     display: flex;
@@ -66,6 +67,7 @@ sup {
     align-items: center;
     background-color: #f5f5f6;
     border-radius: 6px;
+    flex-shrink: 4;
 }
 .search-container span {
     width: 10%;
@@ -87,6 +89,7 @@ sup {
     display: flex;
     width: 13%;
     justify-content: right;
+    flex-shrink: 4;
 }
 .action {
     display: flex;
